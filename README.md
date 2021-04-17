@@ -7,8 +7,8 @@ PCB for programing PIC18F45550
 
 ## PCB Design
 
-### Front
+### Front Layer
 <img src="https://github.com/cristobalcuevas/PIC18F4550/blob/main/imagenes/front.png" width="80%" height="80%">
 
-### Back
+### Back Layer
 <img src="https://github.com/cristobalcuevas/PIC18F4550/blob/main/imagenes/back.png" width="80%" height="80%">
