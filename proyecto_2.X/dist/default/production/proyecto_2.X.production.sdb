@@ -1,0 +1,308 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4550 ]
+[d frameptr 4065 ]
+"4 D:\Archivos de programa\Microchip\xc8\v2.32\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 D:\Archivos de programa\Microchip\xc8\v2.32\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 D:\Archivos de programa\Microchip\xc8\v2.32\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 D:\Archivos de programa\Microchip\xc8\v2.32\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 D:\Archivos de programa\Microchip\xc8\v2.32\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 D:\Archivos de programa\Microchip\xc8\v2.32\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 D:\Archivos de programa\Microchip\xc8\v2.32\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 D:\Archivos de programa\Microchip\xc8\v2.32\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 D:\Archivos de programa\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 D:\Archivos de programa\Microchip\xc8\v2.32\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 D:\Archivos de programa\Microchip\xc8\v2.32\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"10 C:\Users\Cristobal\Desktop\PIC18F4550\proyecto_2.X\EUSART_libreria.c
+[v _EUSART_Init EUSART_Init `(v  1 e 1 0 ]
+"24
+[v _EUSART_TX EUSART_TX `(v  1 e 1 0 ]
+"31
+[v _EUSART_Cadena EUSART_Cadena `(v  1 e 1 0 ]
+"13 C:\Users\Cristobal\Desktop\PIC18F4550\proyecto_2.X\interrupcion_libreria.c
+[v _INT_Init INT_Init `(v  1 e 1 0 ]
+"21
+[v _INT0_ISRs INT0_ISRs `IIH(v  1 e 1 0 ]
+"17 C:\Users\Cristobal\Desktop\PIC18F4550\proyecto_2.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"13 C:\Users\Cristobal\Desktop\PIC18F4550\proyecto_2.X\pwm_libreria.c
+[v _pwm_Init pwm_Init `(v  1 e 1 0 ]
+[s S220 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"2483 D:/Archivos de programa/Microchip/MPLABX/v5.45/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h
+[s S268 . 1 `uc 1 INT0 1 0 :1:0 
+`uc 1 INT1 1 0 :1:1 
+`uc 1 INT2 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 PGM 1 0 :1:5 
+`uc 1 PGC 1 0 :1:6 
+`uc 1 PGD 1 0 :1:7 
+]
+[s S276 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CCP2_PA2 1 0 :1:3 
+]
+[u S279 . 1 `S220 1 . 1 0 `S268 1 . 1 0 `S276 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES279  1 e 1 @3969 ]
+[s S211 . 1 `uc 1 TRISB0 1 0 :1:0 
+`uc 1 TRISB1 1 0 :1:1 
+`uc 1 TRISB2 1 0 :1:2 
+`uc 1 TRISB3 1 0 :1:3 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"3657
+[u S229 . 1 `S211 1 . 1 0 `S220 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES229  1 e 1 @3987 ]
+[s S392 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"3875
+[s S399 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+[u S406 . 1 `S392 1 . 1 0 `S399 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES406  1 e 1 @3988 ]
+[s S123 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"4977
+[s S132 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 ADEN 1 0 :1:3 
+]
+[s S135 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 SRENA 1 0 :1:5 
+]
+[s S138 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC8_9 1 0 :1:6 
+]
+[s S141 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC9 1 0 :1:6 
+]
+[s S144 . 1 `uc 1 RCD8 1 0 :1:0 
+]
+[u S146 . 1 `S123 1 . 1 0 `S132 1 . 1 0 `S135 1 . 1 0 `S138 1 . 1 0 `S141 1 . 1 0 `S144 1 . 1 0 ]
+[v _RCSTAbits RCSTAbits `VES146  1 e 1 @4011 ]
+[s S71 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"5185
+[s S80 . 1 `uc 1 TX9D1 1 0 :1:0 
+`uc 1 TRMT1 1 0 :1:1 
+`uc 1 BRGH1 1 0 :1:2 
+`uc 1 SENDB1 1 0 :1:3 
+`uc 1 SYNC1 1 0 :1:4 
+`uc 1 TXEN1 1 0 :1:5 
+`uc 1 TX91 1 0 :1:6 
+`uc 1 CSRC1 1 0 :1:7 
+]
+[s S89 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 TX8_9 1 0 :1:6 
+]
+[s S92 . 1 `uc 1 TXD8 1 0 :1:0 
+]
+[u S94 . 1 `S71 1 . 1 0 `S80 1 . 1 0 `S89 1 . 1 0 `S92 1 . 1 0 ]
+[v _TXSTAbits TXSTAbits `VES94  1 e 1 @4012 ]
+"5402
+[v _TXREG TXREG `VEuc  1 e 1 @4013 ]
+"5414
+[v _RCREG RCREG `VEuc  1 e 1 @4014 ]
+"5426
+[v _SPBRG SPBRG `VEuc  1 e 1 @4015 ]
+[s S25 . 1 `uc 1 ABDEN 1 0 :1:0 
+`uc 1 WUE 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 BRG16 1 0 :1:3 
+`uc 1 TXCKP 1 0 :1:4 
+`uc 1 RXDTP 1 0 :1:5 
+`uc 1 RCIDL 1 0 :1:6 
+`uc 1 ABDOVF 1 0 :1:7 
+]
+"6098
+[s S34 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 SCKP 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 RCMT 1 0 :1:6 
+]
+[s S39 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 RXCKP 1 0 :1:5 
+]
+[s S42 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 W4E 1 0 :1:1 
+]
+[u S45 . 1 `S25 1 . 1 0 `S34 1 . 1 0 `S39 1 . 1 0 `S42 1 . 1 0 ]
+[v _BAUDCONbits BAUDCONbits `VES45  1 e 1 @4024 ]
+[s S306 . 1 `uc 1 CCP1M 1 0 :4:0 
+`uc 1 DC1B 1 0 :2:4 
+`uc 1 P1M 1 0 :2:6 
+]
+"6354
+[s S310 . 1 `uc 1 CCP1M0 1 0 :1:0 
+`uc 1 CCP1M1 1 0 :1:1 
+`uc 1 CCP1M2 1 0 :1:2 
+`uc 1 CCP1M3 1 0 :1:3 
+`uc 1 DC1B0 1 0 :1:4 
+`uc 1 DC1B1 1 0 :1:5 
+`uc 1 P1M0 1 0 :1:6 
+`uc 1 P1M1 1 0 :1:7 
+]
+[u S319 . 1 `S306 1 . 1 0 `S310 1 . 1 0 ]
+[v _CCP1CONbits CCP1CONbits `VES319  1 e 1 @4029 ]
+"6496
+[v _CCPR1L CCPR1L `VEuc  1 e 1 @4030 ]
+[s S424 . 1 `uc 1 T2CKPS 1 0 :2:0 
+`uc 1 TMR2ON 1 0 :1:2 
+`uc 1 TOUTPS 1 0 :4:3 
+]
+"7228
+[s S428 . 1 `uc 1 T2CKPS0 1 0 :1:0 
+`uc 1 T2CKPS1 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 T2OUTPS0 1 0 :1:3 
+`uc 1 T2OUTPS1 1 0 :1:4 
+`uc 1 T2OUTPS2 1 0 :1:5 
+`uc 1 T2OUTPS3 1 0 :1:6 
+]
+[s S436 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 TOUTPS0 1 0 :1:3 
+`uc 1 TOUTPS1 1 0 :1:4 
+`uc 1 TOUTPS2 1 0 :1:5 
+`uc 1 TOUTPS3 1 0 :1:6 
+]
+[u S442 . 1 `S424 1 . 1 0 `S428 1 . 1 0 `S436 1 . 1 0 ]
+[v _T2CONbits T2CONbits `VES442  1 e 1 @4042 ]
+"7298
+[v _PR2 PR2 `VEuc  1 e 1 @4043 ]
+[s S547 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 NOT_RBPU 1 0 :1:7 
+]
+"8532
+[s S550 . 1 `uc 1 RBIP 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 TMR0IP 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INTEDG2 1 0 :1:4 
+`uc 1 INTEDG1 1 0 :1:5 
+`uc 1 INTEDG0 1 0 :1:6 
+`uc 1 nRBPU 1 0 :1:7 
+]
+[s S559 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 T0IP 1 0 :1:2 
+`uc 1 . 1 0 :4:3 
+`uc 1 RBPU 1 0 :1:7 
+]
+[u S564 . 1 `S547 1 . 1 0 `S550 1 . 1 0 `S559 1 . 1 0 ]
+[v _INTCON2bits INTCON2bits `VES564  1 e 1 @4081 ]
+[s S498 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"8614
+[s S507 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 INT0F 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INT0E 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S516 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[u S520 . 1 `S498 1 . 1 0 `S507 1 . 1 0 `S516 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES520  1 e 1 @4082 ]
+"11 C:\Users\Cristobal\Desktop\PIC18F4550\proyecto_2.X\interrupcion_libreria.c
+[v _x x `uc  1 e 1 0 ]
+"11 C:\Users\Cristobal\Desktop\PIC18F4550\proyecto_2.X\pwm_libreria.c
+[v _duty duty `us  1 e 2 0 ]
+"17 C:\Users\Cristobal\Desktop\PIC18F4550\proyecto_2.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"57
+} 0
+"13 C:\Users\Cristobal\Desktop\PIC18F4550\proyecto_2.X\pwm_libreria.c
+[v _pwm_Init pwm_Init `(v  1 e 1 0 ]
+{
+"21
+} 0
+"13 C:\Users\Cristobal\Desktop\PIC18F4550\proyecto_2.X\interrupcion_libreria.c
+[v _INT_Init INT_Init `(v  1 e 1 0 ]
+{
+"20
+} 0
+"10 C:\Users\Cristobal\Desktop\PIC18F4550\proyecto_2.X\EUSART_libreria.c
+[v _EUSART_Init EUSART_Init `(v  1 e 1 0 ]
+{
+[v EUSART_Init@baud baud `uc  1 a 1 wreg ]
+[v EUSART_Init@baud baud `uc  1 a 1 wreg ]
+[v EUSART_Init@baud baud `uc  1 a 1 0 ]
+"22
+} 0
+"31
+[v _EUSART_Cadena EUSART_Cadena `(v  1 e 1 0 ]
+{
+[v EUSART_Cadena@data data `*.25uc  1 p 2 1 ]
+"36
+} 0
+"24
+[v _EUSART_TX EUSART_TX `(v  1 e 1 0 ]
+{
+[v EUSART_TX@dato dato `uc  1 a 1 wreg ]
+[v EUSART_TX@dato dato `uc  1 a 1 wreg ]
+[v EUSART_TX@dato dato `uc  1 a 1 0 ]
+"27
+} 0
+"21 C:\Users\Cristobal\Desktop\PIC18F4550\proyecto_2.X\interrupcion_libreria.c
+[v _INT0_ISRs INT0_ISRs `IIH(v  1 e 1 0 ]
+{
+"24
+} 0

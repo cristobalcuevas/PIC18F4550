@@ -1,0 +1,263 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4550 ]
+[d frameptr 4065 ]
+"4 D:\Archivos de programa\Microchip\xc8\v2.32\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 D:\Archivos de programa\Microchip\xc8\v2.32\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 D:\Archivos de programa\Microchip\xc8\v2.32\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 D:\Archivos de programa\Microchip\xc8\v2.32\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 D:\Archivos de programa\Microchip\xc8\v2.32\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 D:\Archivos de programa\Microchip\xc8\v2.32\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 D:\Archivos de programa\Microchip\xc8\v2.32\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 D:\Archivos de programa\Microchip\xc8\v2.32\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 D:\Archivos de programa\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 D:\Archivos de programa\Microchip\xc8\v2.32\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 D:\Archivos de programa\Microchip\xc8\v2.32\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"14 C:\Users\Cristobal\Desktop\PIC18F4550\proyecto_1.X\interrupcion_libreria.c
+[v _INT_Init INT_Init `(v  1 e 1 0 ]
+"24
+[v _INT0_ALTA INT0_ALTA `IIH(v  1 e 1 0 ]
+"29
+[v _INT1_TMR0 INT1_TMR0 `IIL(v  1 e 1 0 ]
+"4 C:\Users\Cristobal\Desktop\PIC18F4550\proyecto_1.X\lcd_libreria.c
+[v _lcd_Init lcd_Init `(v  1 e 1 0 ]
+"18
+[v _lcd_Comando lcd_Comando `(v  1 e 1 0 ]
+"28
+[v _lcd_XY lcd_XY `(v  1 e 1 0 ]
+"37
+[v _lcd_Caracter lcd_Caracter `(v  1 e 1 0 ]
+"47
+[v _lcd_Cadena lcd_Cadena `(v  1 e 1 0 ]
+"54
+[v _selectorRegistro selectorRegistro `(v  1 e 1 0 ]
+"17 C:\Users\Cristobal\Desktop\PIC18F4550\proyecto_1.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"11 C:\Users\Cristobal\Desktop\PIC18F4550\proyecto_1.X\timers_libreria.c
+[v _Timer0_Init Timer0_Init `(v  1 e 1 0 ]
+"3263 D:/Archivos de programa/Microchip/MPLABX/v5.45/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h
+[v _LATD LATD `VEuc  1 e 1 @3980 ]
+[s S79 . 1 `uc 1 LATD0 1 0 :1:0 
+`uc 1 LATD1 1 0 :1:1 
+`uc 1 LATD2 1 0 :1:2 
+`uc 1 LATD3 1 0 :1:3 
+`uc 1 LATD4 1 0 :1:4 
+`uc 1 LATD5 1 0 :1:5 
+`uc 1 LATD6 1 0 :1:6 
+`uc 1 LATD7 1 0 :1:7 
+]
+"3290
+[s S88 . 1 `uc 1 LD0 1 0 :1:0 
+`uc 1 LD1 1 0 :1:1 
+`uc 1 LD2 1 0 :1:2 
+`uc 1 LD3 1 0 :1:3 
+`uc 1 LD4 1 0 :1:4 
+`uc 1 LD5 1 0 :1:5 
+`uc 1 LD6 1 0 :1:6 
+`uc 1 LD7 1 0 :1:7 
+]
+[u S97 . 1 `S79 1 . 1 0 `S88 1 . 1 0 ]
+[v _LATDbits LATDbits `VES97  1 e 1 @3980 ]
+[s S140 . 1 `uc 1 TRISB0 1 0 :1:0 
+`uc 1 TRISB1 1 0 :1:1 
+`uc 1 TRISB2 1 0 :1:2 
+`uc 1 TRISB3 1 0 :1:3 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"3657
+[s S149 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+[u S158 . 1 `S140 1 . 1 0 `S149 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES158  1 e 1 @3987 ]
+"4001
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+[s S268 . 1 `uc 1 NOT_BOR 1 0 :1:0 
+]
+"7588
+[s S270 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_POR 1 0 :1:1 
+]
+[s S273 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_PD 1 0 :1:2 
+]
+[s S276 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 NOT_TO 1 0 :1:3 
+]
+[s S279 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 NOT_RI 1 0 :1:4 
+]
+[s S282 . 1 `uc 1 nBOR 1 0 :1:0 
+`uc 1 nPOR 1 0 :1:1 
+`uc 1 nPD 1 0 :1:2 
+`uc 1 nTO 1 0 :1:3 
+`uc 1 nRI 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 SBOREN 1 0 :1:6 
+`uc 1 IPEN 1 0 :1:7 
+]
+[s S291 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 NOT_IPEN 1 0 :1:7 
+]
+[s S294 . 1 `uc 1 BOR 1 0 :1:0 
+`uc 1 POR 1 0 :1:1 
+`uc 1 PD 1 0 :1:2 
+`uc 1 TO 1 0 :1:3 
+`uc 1 RI 1 0 :1:4 
+`uc 1 . 1 0 :2:5 
+`uc 1 nIPEN 1 0 :1:7 
+]
+[u S302 . 1 `S268 1 . 1 0 `S270 1 . 1 0 `S273 1 . 1 0 `S276 1 . 1 0 `S279 1 . 1 0 `S282 1 . 1 0 `S291 1 . 1 0 `S294 1 . 1 0 ]
+[v _RCONbits RCONbits `VES302  1 e 1 @4048 ]
+[s S48 . 1 `uc 1 T0PS 1 0 :3:0 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+`uc 1 T08BIT 1 0 :1:6 
+`uc 1 TMR0ON 1 0 :1:7 
+]
+"8089
+[s S55 . 1 `uc 1 T0PS0 1 0 :1:0 
+`uc 1 T0PS1 1 0 :1:1 
+`uc 1 T0PS2 1 0 :1:2 
+]
+[u S59 . 1 `S48 1 . 1 0 `S55 1 . 1 0 ]
+[v _T0CONbits T0CONbits `VES59  1 e 1 @4053 ]
+"8146
+[v _TMR0L TMR0L `VEuc  1 e 1 @4054 ]
+[s S229 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 NOT_RBPU 1 0 :1:7 
+]
+"8532
+[s S232 . 1 `uc 1 RBIP 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 TMR0IP 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INTEDG2 1 0 :1:4 
+`uc 1 INTEDG1 1 0 :1:5 
+`uc 1 INTEDG0 1 0 :1:6 
+`uc 1 nRBPU 1 0 :1:7 
+]
+[s S241 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 T0IP 1 0 :1:2 
+`uc 1 . 1 0 :4:3 
+`uc 1 RBPU 1 0 :1:7 
+]
+[u S246 . 1 `S229 1 . 1 0 `S232 1 . 1 0 `S241 1 . 1 0 ]
+[v _INTCON2bits INTCON2bits `VES246  1 e 1 @4081 ]
+[s S180 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"8614
+[s S189 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 INT0F 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INT0E 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S198 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[u S202 . 1 `S180 1 . 1 0 `S189 1 . 1 0 `S198 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES202  1 e 1 @4082 ]
+"12 C:\Users\Cristobal\Desktop\PIC18F4550\proyecto_1.X\interrupcion_libreria.c
+[v _x x `uc  1 e 1 0 ]
+"17 C:\Users\Cristobal\Desktop\PIC18F4550\proyecto_1.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"41
+} 0
+"28 C:\Users\Cristobal\Desktop\PIC18F4550\proyecto_1.X\lcd_libreria.c
+[v _lcd_XY lcd_XY `(v  1 e 1 0 ]
+{
+[v lcd_XY@x x `i  1 p 2 8 ]
+[v lcd_XY@y y `i  1 p 2 10 ]
+"35
+} 0
+"4
+[v _lcd_Init lcd_Init `(v  1 e 1 0 ]
+{
+"16
+} 0
+"18
+[v _lcd_Comando lcd_Comando `(v  1 e 1 0 ]
+{
+[v lcd_Comando@cmd cmd `uc  1 a 1 wreg ]
+[v lcd_Comando@cmd cmd `uc  1 a 1 wreg ]
+"20
+[v lcd_Comando@cmd cmd `uc  1 a 1 7 ]
+"26
+} 0
+"47
+[v _lcd_Cadena lcd_Cadena `(v  1 e 1 0 ]
+{
+[v lcd_Cadena@pal pal `*.25uc  1 p 2 8 ]
+"52
+} 0
+"37
+[v _lcd_Caracter lcd_Caracter `(v  1 e 1 0 ]
+{
+[v lcd_Caracter@dat dat `uc  1 a 1 wreg ]
+[v lcd_Caracter@dat dat `uc  1 a 1 wreg ]
+[v lcd_Caracter@dat dat `uc  1 a 1 7 ]
+"45
+} 0
+"54
+[v _selectorRegistro selectorRegistro `(v  1 e 1 0 ]
+{
+[v selectorRegistro@rs rs `i  1 p 2 4 ]
+"65
+} 0
+"11 C:\Users\Cristobal\Desktop\PIC18F4550\proyecto_1.X\timers_libreria.c
+[v _Timer0_Init Timer0_Init `(v  1 e 1 0 ]
+{
+"29
+} 0
+"14 C:\Users\Cristobal\Desktop\PIC18F4550\proyecto_1.X\interrupcion_libreria.c
+[v _INT_Init INT_Init `(v  1 e 1 0 ]
+{
+"22
+} 0
+"29
+[v _INT1_TMR0 INT1_TMR0 `IIL(v  1 e 1 0 ]
+{
+"33
+} 0
+"24
+[v _INT0_ALTA INT0_ALTA `IIH(v  1 e 1 0 ]
+{
+"28
+} 0

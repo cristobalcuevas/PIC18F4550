@@ -1,0 +1,145 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4550 ]
+[d frameptr 4065 ]
+"4 D:\Archivos de programa\Microchip\xc8\v2.32\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 D:\Archivos de programa\Microchip\xc8\v2.32\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 D:\Archivos de programa\Microchip\xc8\v2.32\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 D:\Archivos de programa\Microchip\xc8\v2.32\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 D:\Archivos de programa\Microchip\xc8\v2.32\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 D:\Archivos de programa\Microchip\xc8\v2.32\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 D:\Archivos de programa\Microchip\xc8\v2.32\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 D:\Archivos de programa\Microchip\xc8\v2.32\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 D:\Archivos de programa\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 D:\Archivos de programa\Microchip\xc8\v2.32\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 D:\Archivos de programa\Microchip\xc8\v2.32\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"3 C:\Users\Cristobal\Desktop\PIC18F4550\EUSART.X\EUSART_libreria.c
+[v _EUSART_Init EUSART_Init `(v  1 e 1 0 ]
+"17
+[v _EUSART_TX EUSART_TX `(v  1 e 1 0 ]
+"24
+[v _EUSART_Cadena EUSART_Cadena `(v  1 e 1 0 ]
+"14 C:\Users\Cristobal\Desktop\PIC18F4550\EUSART.X\main.c
+[v _main main `(v  1 e 1 0 ]
+[s S145 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"4977 D:/Archivos de programa/Microchip/MPLABX/v5.45/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h
+[s S154 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 ADEN 1 0 :1:3 
+]
+[s S157 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 SRENA 1 0 :1:5 
+]
+[s S160 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC8_9 1 0 :1:6 
+]
+[s S163 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC9 1 0 :1:6 
+]
+[s S166 . 1 `uc 1 RCD8 1 0 :1:0 
+]
+[u S168 . 1 `S145 1 . 1 0 `S154 1 . 1 0 `S157 1 . 1 0 `S160 1 . 1 0 `S163 1 . 1 0 `S166 1 . 1 0 ]
+[v _RCSTAbits RCSTAbits `VES168  1 e 1 @4011 ]
+[s S93 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"5185
+[s S102 . 1 `uc 1 TX9D1 1 0 :1:0 
+`uc 1 TRMT1 1 0 :1:1 
+`uc 1 BRGH1 1 0 :1:2 
+`uc 1 SENDB1 1 0 :1:3 
+`uc 1 SYNC1 1 0 :1:4 
+`uc 1 TXEN1 1 0 :1:5 
+`uc 1 TX91 1 0 :1:6 
+`uc 1 CSRC1 1 0 :1:7 
+]
+[s S111 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 TX8_9 1 0 :1:6 
+]
+[s S114 . 1 `uc 1 TXD8 1 0 :1:0 
+]
+[u S116 . 1 `S93 1 . 1 0 `S102 1 . 1 0 `S111 1 . 1 0 `S114 1 . 1 0 ]
+[v _TXSTAbits TXSTAbits `VES116  1 e 1 @4012 ]
+"5402
+[v _TXREG TXREG `VEuc  1 e 1 @4013 ]
+"5414
+[v _RCREG RCREG `VEuc  1 e 1 @4014 ]
+"5426
+[v _SPBRG SPBRG `VEuc  1 e 1 @4015 ]
+[s S47 . 1 `uc 1 ABDEN 1 0 :1:0 
+`uc 1 WUE 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 BRG16 1 0 :1:3 
+`uc 1 TXCKP 1 0 :1:4 
+`uc 1 RXDTP 1 0 :1:5 
+`uc 1 RCIDL 1 0 :1:6 
+`uc 1 ABDOVF 1 0 :1:7 
+]
+"6098
+[s S56 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 SCKP 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 RCMT 1 0 :1:6 
+]
+[s S61 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 RXCKP 1 0 :1:5 
+]
+[s S64 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 W4E 1 0 :1:1 
+]
+[u S67 . 1 `S47 1 . 1 0 `S56 1 . 1 0 `S61 1 . 1 0 `S64 1 . 1 0 ]
+[v _BAUDCONbits BAUDCONbits `VES67  1 e 1 @4024 ]
+"14 C:\Users\Cristobal\Desktop\PIC18F4550\EUSART.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"24
+} 0
+"3 C:\Users\Cristobal\Desktop\PIC18F4550\EUSART.X\EUSART_libreria.c
+[v _EUSART_Init EUSART_Init `(v  1 e 1 0 ]
+{
+[v EUSART_Init@baud baud `uc  1 a 1 wreg ]
+[v EUSART_Init@baud baud `uc  1 a 1 wreg ]
+[v EUSART_Init@baud baud `uc  1 a 1 0 ]
+"15
+} 0
+"24
+[v _EUSART_Cadena EUSART_Cadena `(v  1 e 1 0 ]
+{
+[v EUSART_Cadena@data data `*.32uc  1 p 2 1 ]
+"29
+} 0
+"17
+[v _EUSART_TX EUSART_TX `(v  1 e 1 0 ]
+{
+[v EUSART_TX@dato dato `uc  1 a 1 wreg ]
+[v EUSART_TX@dato dato `uc  1 a 1 wreg ]
+[v EUSART_TX@dato dato `uc  1 a 1 0 ]
+"20
+} 0
