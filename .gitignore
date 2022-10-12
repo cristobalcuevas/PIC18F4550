@@ -1,4 +1,4 @@
-**/build
-**/dist
-**/nbproject
-**/proteus
+build/
+dist/
+nbproject/
+proteus/
